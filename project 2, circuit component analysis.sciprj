@@ -1,0 +1,254 @@
+SciDAVis 2.3.0 project file
+<scripting-lang>	muParser
+<windows>	7
+<table>
+9030
+<table creation_time="2021-14-03 16:41:20:602" caption_spec="%n%C{ - }%c" name="Table2" columns="3" rows="30"><comment><![CDATA[C:/Users/bhara/Downloads/V-I Data Resistor.csv]]></comment><column creation_time="2021-14-03 16:41:20:598" caption_spec="%n%C{ - }%c" name="Voltage (V)" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2021-14-03 16:41:20:598" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2021-14-03 16:41:20:598" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">3.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">4.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">5.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">6.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">7.0000000000000000e+00</row><row type="TypeDouble" index="7" invalid="no">8.0000000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">9.0000000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">1.0000000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">1.1000000000000000e+01</row><row type="TypeDouble" index="11" invalid="no">1.2000000000000000e+01</row><row type="TypeDouble" index="12" invalid="no">1.3000000000000000e+01</row><row type="TypeDouble" index="13" invalid="no">1.4000000000000000e+01</row><row type="TypeDouble" index="14" invalid="no">1.5000000000000000e+01</row><row type="TypeDouble" index="15" invalid="no">1.6000000000000000e+01</row><row type="TypeDouble" index="16" invalid="no">1.7000000000000000e+01</row><row type="TypeDouble" index="17" invalid="no">1.8000000000000000e+01</row><row type="TypeDouble" index="18" invalid="no">1.9000000000000000e+01</row><row type="TypeDouble" index="19" invalid="no">2.0000000000000000e+01</row><row type="TypeDouble" index="20" invalid="no">2.1000000000000000e+01</row><row type="TypeDouble" index="21" invalid="no">2.2000000000000000e+01</row><row type="TypeDouble" index="22" invalid="no">2.3000000000000000e+01</row><row type="TypeDouble" index="23" invalid="no">2.4000000000000000e+01</row><row type="TypeDouble" index="24" invalid="no">2.5000000000000000e+01</row><row type="TypeDouble" index="25" invalid="no">2.6000000000000000e+01</row><row type="TypeDouble" index="26" invalid="no">2.7000000000000000e+01</row><row type="TypeDouble" index="27" invalid="no">2.8000000000000000e+01</row><row type="TypeDouble" index="28" invalid="no">2.9000000000000000e+01</row><row type="TypeDouble" index="29" invalid="no">3.0000000000000000e+01</row></column><column creation_time="2021-14-03 16:42:48:904" caption_spec="%n%C{ - }%c" name="Current (A)" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2021-14-03 16:42:48:904" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2021-14-03 16:42:48:904" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="29">col(&quot;Current (mA)&quot;)/1000</formula><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e-03</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e-03</row><row type="TypeDouble" index="2" invalid="no">3.0000000000000001e-03</row><row type="TypeDouble" index="3" invalid="no">4.0000000000000001e-03</row><row type="TypeDouble" index="4" invalid="no">5.0000000000000001e-03</row><row type="TypeDouble" index="5" invalid="no">6.0999999999999995e-03</row><row type="TypeDouble" index="6" invalid="no">7.0999999999999995e-03</row><row type="TypeDouble" index="7" invalid="no">8.0999999999999996e-03</row><row type="TypeDouble" index="8" invalid="no">9.1999999999999998e-03</row><row type="TypeDouble" index="9" invalid="no">1.0199999999999999e-02</row><row type="TypeDouble" index="10" invalid="no">1.1200000000000000e-02</row><row type="TypeDouble" index="11" invalid="no">1.2199999999999999e-02</row><row type="TypeDouble" index="12" invalid="no">1.3300000000000001e-02</row><row type="TypeDouble" index="13" invalid="no">1.4300000000000000e-02</row><row type="TypeDouble" index="14" invalid="no">1.5400000000000000e-02</row><row type="TypeDouble" index="15" invalid="no">1.6399999999999998e-02</row><row type="TypeDouble" index="16" invalid="no">1.7500000000000002e-02</row><row type="TypeDouble" index="17" invalid="no">1.8499999999999999e-02</row><row type="TypeDouble" index="18" invalid="no">1.9600000000000003e-02</row><row type="TypeDouble" index="19" invalid="no">2.0600000000000000e-02</row><row type="TypeDouble" index="20" invalid="no">2.1700000000000001e-02</row><row type="TypeDouble" index="21" invalid="no">2.2800000000000001e-02</row><row type="TypeDouble" index="22" invalid="no">2.3899999999999998e-02</row><row type="TypeDouble" index="23" invalid="no">2.5000000000000001e-02</row><row type="TypeDouble" index="24" invalid="no">2.5999999999999999e-02</row><row type="TypeDouble" index="25" invalid="no">2.7100000000000003e-02</row><row type="TypeDouble" index="26" invalid="no">2.8199999999999999e-02</row><row type="TypeDouble" index="27" invalid="no">2.9300000000000000e-02</row><row type="TypeDouble" index="28" invalid="no">3.0400000000000000e-02</row><row type="TypeDouble" index="29" invalid="no">3.1500000000000000e-02</row></column><column creation_time="2021-14-03 16:41:20:600" caption_spec="%n%C{ - }%c" name="Current (mA)" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2021-14-03 16:41:20:600" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2021-14-03 16:41:20:600" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">3.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">4.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">5.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">6.0999999999999996e+00</row><row type="TypeDouble" index="6" invalid="no">7.0999999999999996e+00</row><row type="TypeDouble" index="7" invalid="no">8.0999999999999996e+00</row><row type="TypeDouble" index="8" invalid="no">9.1999999999999993e+00</row><row type="TypeDouble" index="9" invalid="no">1.0199999999999999e+01</row><row type="TypeDouble" index="10" invalid="no">1.1199999999999999e+01</row><row type="TypeDouble" index="11" invalid="no">1.2199999999999999e+01</row><row type="TypeDouble" index="12" invalid="no">1.3300000000000001e+01</row><row type="TypeDouble" index="13" invalid="no">1.4300000000000001e+01</row><row type="TypeDouble" index="14" invalid="no">1.5400000000000000e+01</row><row type="TypeDouble" index="15" invalid="no">1.6399999999999999e+01</row><row type="TypeDouble" index="16" invalid="no">1.7500000000000000e+01</row><row type="TypeDouble" index="17" invalid="no">1.8500000000000000e+01</row><row type="TypeDouble" index="18" invalid="no">1.9600000000000001e+01</row><row type="TypeDouble" index="19" invalid="no">2.0600000000000001e+01</row><row type="TypeDouble" index="20" invalid="no">2.1699999999999999e+01</row><row type="TypeDouble" index="21" invalid="no">2.2800000000000001e+01</row><row type="TypeDouble" index="22" invalid="no">2.3899999999999999e+01</row><row type="TypeDouble" index="23" invalid="no">2.5000000000000000e+01</row><row type="TypeDouble" index="24" invalid="no">2.6000000000000000e+01</row><row type="TypeDouble" index="25" invalid="no">2.7100000000000001e+01</row><row type="TypeDouble" index="26" invalid="no">2.8199999999999999e+01</row><row type="TypeDouble" index="27" invalid="no">2.9300000000000001e+01</row><row type="TypeDouble" index="28" invalid="no">3.0399999999999999e+01</row><row type="TypeDouble" index="29" invalid="no">3.1500000000000000e+01</row></column><column_width column="0">136</column_width><column_width column="1">178</column_width><column_width column="2">154</column_width></table>
+geometry	831	32	915	574	
+
+</table>
+<table>
+9026
+<table creation_time="2021-14-03 16:44:33:568" caption_spec="%n%C{ - }%c" name="Table3" columns="3" rows="30"><comment><![CDATA[C:/Users/bhara/Downloads/V-I Data Lamp.csv]]></comment><column creation_time="2021-14-03 16:44:33:564" caption_spec="%n%C{ - }%c" name="Voltage (V)" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2021-14-03 16:44:33:564" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2021-14-03 16:44:33:565" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">3.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">4.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">5.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">6.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">7.0000000000000000e+00</row><row type="TypeDouble" index="7" invalid="no">8.0000000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">9.0000000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">1.0000000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">1.1000000000000000e+01</row><row type="TypeDouble" index="11" invalid="no">1.2000000000000000e+01</row><row type="TypeDouble" index="12" invalid="no">1.3000000000000000e+01</row><row type="TypeDouble" index="13" invalid="no">1.4000000000000000e+01</row><row type="TypeDouble" index="14" invalid="no">1.5000000000000000e+01</row><row type="TypeDouble" index="15" invalid="no">1.6000000000000000e+01</row><row type="TypeDouble" index="16" invalid="no">1.7000000000000000e+01</row><row type="TypeDouble" index="17" invalid="no">1.8000000000000000e+01</row><row type="TypeDouble" index="18" invalid="no">1.9000000000000000e+01</row><row type="TypeDouble" index="19" invalid="no">2.0000000000000000e+01</row><row type="TypeDouble" index="20" invalid="no">2.1000000000000000e+01</row><row type="TypeDouble" index="21" invalid="no">2.2000000000000000e+01</row><row type="TypeDouble" index="22" invalid="no">2.3000000000000000e+01</row><row type="TypeDouble" index="23" invalid="no">2.4000000000000000e+01</row><row type="TypeDouble" index="24" invalid="no">2.5000000000000000e+01</row><row type="TypeDouble" index="25" invalid="no">2.6000000000000000e+01</row><row type="TypeDouble" index="26" invalid="no">2.7000000000000000e+01</row><row type="TypeDouble" index="27" invalid="no">2.8000000000000000e+01</row><row type="TypeDouble" index="28" invalid="no">2.9000000000000000e+01</row><row type="TypeDouble" index="29" invalid="no">3.0000000000000000e+01</row></column><column creation_time="2021-14-03 16:45:05:961" caption_spec="%n%C{ - }%c" name="Current (A)" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2021-14-03 16:45:05:961" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2021-14-03 16:45:05:961" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="29">col(&quot;Current (mA)&quot;)/1000</formula><row type="TypeDouble" index="0" invalid="no">1.0699999999999999e-02</row><row type="TypeDouble" index="1" invalid="no">1.5699999999999999e-02</row><row type="TypeDouble" index="2" invalid="no">2.0500000000000001e-02</row><row type="TypeDouble" index="3" invalid="no">2.4100000000000000e-02</row><row type="TypeDouble" index="4" invalid="no">2.7800000000000002e-02</row><row type="TypeDouble" index="5" invalid="no">3.1000000000000000e-02</row><row type="TypeDouble" index="6" invalid="no">3.4299999999999997e-02</row><row type="TypeDouble" index="7" invalid="no">3.7200000000000004e-02</row><row type="TypeDouble" index="8" invalid="no">4.0000000000000001e-02</row><row type="TypeDouble" index="9" invalid="no">4.3200000000000002e-02</row><row type="TypeDouble" index="10" invalid="no">4.5800000000000000e-02</row><row type="TypeDouble" index="11" invalid="no">4.8200000000000000e-02</row><row type="TypeDouble" index="12" invalid="no">5.0599999999999999e-02</row><row type="TypeDouble" index="13" invalid="no">5.3200000000000004e-02</row><row type="TypeDouble" index="14" invalid="no">5.5500000000000001e-02</row><row type="TypeDouble" index="15" invalid="no">5.7700000000000001e-02</row><row type="TypeDouble" index="16" invalid="no">5.9799999999999999e-02</row><row type="TypeDouble" index="17" invalid="no">6.1899999999999997e-02</row><row type="TypeDouble" index="18" invalid="no">6.4000000000000001e-02</row><row type="TypeDouble" index="19" invalid="no">6.5900000000000000e-02</row><row type="TypeDouble" index="20" invalid="no">6.7799999999999999e-02</row><row type="TypeDouble" index="21" invalid="no">6.9800000000000001e-02</row><row type="TypeDouble" index="22" invalid="no">7.1700000000000000e-02</row><row type="TypeDouble" index="23" invalid="no">7.3499999999999996e-02</row><row type="TypeDouble" index="24" invalid="no">7.5200000000000003e-02</row><row type="TypeDouble" index="25" invalid="no">7.6999999999999999e-02</row><row type="TypeDouble" index="26" invalid="no">7.8700000000000006e-02</row><row type="TypeDouble" index="27" invalid="no">8.0399999999999999e-02</row><row type="TypeDouble" index="28" invalid="no">8.2099999999999992e-02</row><row type="TypeDouble" index="29" invalid="no">8.4800000000000000e-02</row></column><column creation_time="2021-14-03 16:44:33:567" caption_spec="%n%C{ - }%c" name="Current (mA)" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2021-14-03 16:44:33:567" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2021-14-03 16:44:33:567" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0699999999999999e+01</row><row type="TypeDouble" index="1" invalid="no">1.5699999999999999e+01</row><row type="TypeDouble" index="2" invalid="no">2.0500000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">2.4100000000000001e+01</row><row type="TypeDouble" index="4" invalid="no">2.7800000000000001e+01</row><row type="TypeDouble" index="5" invalid="no">3.1000000000000000e+01</row><row type="TypeDouble" index="6" invalid="no">3.4299999999999997e+01</row><row type="TypeDouble" index="7" invalid="no">3.7200000000000003e+01</row><row type="TypeDouble" index="8" invalid="no">4.0000000000000000e+01</row><row type="TypeDouble" index="9" invalid="no">4.3200000000000003e+01</row><row type="TypeDouble" index="10" invalid="no">4.5799999999999997e+01</row><row type="TypeDouble" index="11" invalid="no">4.8200000000000003e+01</row><row type="TypeDouble" index="12" invalid="no">5.0600000000000001e+01</row><row type="TypeDouble" index="13" invalid="no">5.3200000000000003e+01</row><row type="TypeDouble" index="14" invalid="no">5.5500000000000000e+01</row><row type="TypeDouble" index="15" invalid="no">5.7700000000000003e+01</row><row type="TypeDouble" index="16" invalid="no">5.9799999999999997e+01</row><row type="TypeDouble" index="17" invalid="no">6.1899999999999999e+01</row><row type="TypeDouble" index="18" invalid="no">6.4000000000000000e+01</row><row type="TypeDouble" index="19" invalid="no">6.5900000000000006e+01</row><row type="TypeDouble" index="20" invalid="no">6.7799999999999997e+01</row><row type="TypeDouble" index="21" invalid="no">6.9799999999999997e+01</row><row type="TypeDouble" index="22" invalid="no">7.1700000000000003e+01</row><row type="TypeDouble" index="23" invalid="no">7.3500000000000000e+01</row><row type="TypeDouble" index="24" invalid="no">7.5200000000000003e+01</row><row type="TypeDouble" index="25" invalid="no">7.7000000000000000e+01</row><row type="TypeDouble" index="26" invalid="no">7.8700000000000003e+01</row><row type="TypeDouble" index="27" invalid="no">8.0400000000000006e+01</row><row type="TypeDouble" index="28" invalid="no">8.2099999999999994e+01</row><row type="TypeDouble" index="29" invalid="no">8.4799999999999997e+01</row></column><column_width column="0">166</column_width><column_width column="1">148</column_width><column_width column="2">146</column_width></table>
+geometry	38	41	945	589	
+
+</table>
+<table>
+11215
+<table creation_time="2021-14-03 16:45:53:472" caption_spec="%n%C{ - }%c" name="Table4" columns="3" rows="40"><comment><![CDATA[C:/Users/bhara/Downloads/V-I Data LED.csv]]></comment><column creation_time="2021-14-03 16:45:53:466" caption_spec="%n%C{ - }%c" name="Voltage Power Supply (V)" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2021-14-03 16:45:53:466" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2021-14-03 16:45:53:467" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.0000000000000001e-01</row><row type="TypeDouble" index="1" invalid="no">4.0000000000000002e-01</row><row type="TypeDouble" index="2" invalid="no">5.9999999999999998e-01</row><row type="TypeDouble" index="3" invalid="no">8.0000000000000004e-01</row><row type="TypeDouble" index="4" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">1.2000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">1.3999999999999999e+00</row><row type="TypeDouble" index="7" invalid="no">1.6000000000000001e+00</row><row type="TypeDouble" index="8" invalid="no">1.8000000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">2.0000000000000000e+00</row><row type="TypeDouble" index="10" invalid="no">2.2000000000000002e+00</row><row type="TypeDouble" index="11" invalid="no">2.3999999999999999e+00</row><row type="TypeDouble" index="12" invalid="no">2.6000000000000001e+00</row><row type="TypeDouble" index="13" invalid="no">2.7999999999999998e+00</row><row type="TypeDouble" index="14" invalid="no">3.0000000000000000e+00</row><row type="TypeDouble" index="15" invalid="no">3.2000000000000002e+00</row><row type="TypeDouble" index="16" invalid="no">3.3999999999999999e+00</row><row type="TypeDouble" index="17" invalid="no">3.6000000000000001e+00</row><row type="TypeDouble" index="18" invalid="no">3.7999999999999998e+00</row><row type="TypeDouble" index="19" invalid="no">4.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="no">4.2000000000000002e+00</row><row type="TypeDouble" index="21" invalid="no">4.4000000000000004e+00</row><row type="TypeDouble" index="22" invalid="no">4.5999999999999996e+00</row><row type="TypeDouble" index="23" invalid="no">4.7999999999999998e+00</row><row type="TypeDouble" index="24" invalid="no">5.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="no">5.2000000000000002e+00</row><row type="TypeDouble" index="26" invalid="no">5.4000000000000004e+00</row><row type="TypeDouble" index="27" invalid="no">5.5999999999999996e+00</row><row type="TypeDouble" index="28" invalid="no">5.7999999999999998e+00</row><row type="TypeDouble" index="29" invalid="no">6.0000000000000000e+00</row><row type="TypeDouble" index="30" invalid="no">6.2000000000000002e+00</row><row type="TypeDouble" index="31" invalid="no">6.4000000000000004e+00</row><row type="TypeDouble" index="32" invalid="no">6.5999999999999996e+00</row><row type="TypeDouble" index="33" invalid="no">6.7999999999999998e+00</row><row type="TypeDouble" index="34" invalid="no">7.0000000000000000e+00</row><row type="TypeDouble" index="35" invalid="no">7.2000000000000002e+00</row><row type="TypeDouble" index="36" invalid="no">7.4000000000000004e+00</row><row type="TypeDouble" index="37" invalid="no">7.5999999999999996e+00</row><row type="TypeDouble" index="38" invalid="no">7.7999999999999998e+00</row><row type="TypeDouble" index="39" invalid="no">8.0000000000000000e+00</row></column><column creation_time="2021-14-03 16:45:53:468" caption_spec="%n%C{ - }%c" name="Voltage LED (V)" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2021-14-03 16:45:53:468" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2021-14-03 16:45:53:469" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.9900000000000001e-01</row><row type="TypeDouble" index="1" invalid="no">3.9900000000000002e-01</row><row type="TypeDouble" index="2" invalid="no">5.9899999999999998e-01</row><row type="TypeDouble" index="3" invalid="no">7.9900000000000004e-01</row><row type="TypeDouble" index="4" invalid="no">9.9900000000000000e-01</row><row type="TypeDouble" index="5" invalid="no">1.1990000000000001e+00</row><row type="TypeDouble" index="6" invalid="no">1.3979999999999999e+00</row><row type="TypeDouble" index="7" invalid="no">1.5950000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">1.7270000000000001e+00</row><row type="TypeDouble" index="9" invalid="no">1.7720000000000000e+00</row><row type="TypeDouble" index="10" invalid="no">1.7960000000000000e+00</row><row type="TypeDouble" index="11" invalid="no">1.8120000000000001e+00</row><row type="TypeDouble" index="12" invalid="no">1.8250000000000000e+00</row><row type="TypeDouble" index="13" invalid="no">1.8350000000000000e+00</row><row type="TypeDouble" index="14" invalid="no">1.8450000000000000e+00</row><row type="TypeDouble" index="15" invalid="no">1.8520000000000001e+00</row><row type="TypeDouble" index="16" invalid="no">1.8640000000000001e+00</row><row type="TypeDouble" index="17" invalid="no">1.8700000000000001e+00</row><row type="TypeDouble" index="18" invalid="no">1.8759999999999999e+00</row><row type="TypeDouble" index="19" invalid="no">1.8819999999999999e+00</row><row type="TypeDouble" index="20" invalid="no">1.8879999999999999e+00</row><row type="TypeDouble" index="21" invalid="no">1.8930000000000000e+00</row><row type="TypeDouble" index="22" invalid="no">1.8979999999999999e+00</row><row type="TypeDouble" index="23" invalid="no">1.9019999999999999e+00</row><row type="TypeDouble" index="24" invalid="no">1.9070000000000000e+00</row><row type="TypeDouble" index="25" invalid="no">1.9110000000000000e+00</row><row type="TypeDouble" index="26" invalid="no">1.9159999999999999e+00</row><row type="TypeDouble" index="27" invalid="no">1.9190000000000000e+00</row><row type="TypeDouble" index="28" invalid="no">1.9230000000000000e+00</row><row type="TypeDouble" index="29" invalid="no">1.9270000000000000e+00</row><row type="TypeDouble" index="30" invalid="no">1.9310000000000000e+00</row><row type="TypeDouble" index="31" invalid="no">1.9350000000000001e+00</row><row type="TypeDouble" index="32" invalid="no">1.9379999999999999e+00</row><row type="TypeDouble" index="33" invalid="no">1.9410000000000001e+00</row><row type="TypeDouble" index="34" invalid="no">1.9450000000000001e+00</row><row type="TypeDouble" index="35" invalid="no">1.9480000000000000e+00</row><row type="TypeDouble" index="36" invalid="no">1.9510000000000001e+00</row><row type="TypeDouble" index="37" invalid="no">1.9540000000000000e+00</row><row type="TypeDouble" index="38" invalid="no">1.9580000000000000e+00</row><row type="TypeDouble" index="39" invalid="no">1.9610000000000001e+00</row></column><column creation_time="2021-14-03 16:45:53:470" caption_spec="%n%C{ - }%c" name="Current LED (A)" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2021-14-03 16:45:53:470" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2021-14-03 16:45:53:471" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.3000000000000001e-08</row><row type="TypeDouble" index="1" invalid="no">3.2999999999999998e-08</row><row type="TypeDouble" index="2" invalid="no">5.5000000000000003e-08</row><row type="TypeDouble" index="3" invalid="no">7.3000000000000005e-08</row><row type="TypeDouble" index="4" invalid="no">9.2999999999999999e-08</row><row type="TypeDouble" index="5" invalid="no">1.1400000000000000e-07</row><row type="TypeDouble" index="6" invalid="no">1.9200000000000000e-07</row><row type="TypeDouble" index="7" invalid="no">3.1300000000000001e-06</row><row type="TypeDouble" index="8" invalid="no">5.9719999999999997e-05</row><row type="TypeDouble" index="9" invalid="no">1.8760000000000001e-04</row><row type="TypeDouble" index="10" invalid="no">3.3359999999999998e-04</row><row type="TypeDouble" index="11" invalid="no">4.8600000000000000e-04</row><row type="TypeDouble" index="12" invalid="no">6.4139999999999998e-04</row><row type="TypeDouble" index="13" invalid="no">7.9869999999999995e-04</row><row type="TypeDouble" index="14" invalid="no">9.5699999999999995e-04</row><row type="TypeDouble" index="15" invalid="no">1.1160000000000000e-03</row><row type="TypeDouble" index="16" invalid="no">1.3849999999999999e-03</row><row type="TypeDouble" index="17" invalid="no">1.5590000000000001e-03</row><row type="TypeDouble" index="18" invalid="no">1.7340000000000001e-03</row><row type="TypeDouble" index="19" invalid="no">1.9090000000000001e-03</row><row type="TypeDouble" index="20" invalid="no">2.0850000000000000e-03</row><row type="TypeDouble" index="21" invalid="no">2.2610000000000000e-03</row><row type="TypeDouble" index="22" invalid="no">2.4369999999999999e-03</row><row type="TypeDouble" index="23" invalid="no">2.6140000000000000e-03</row><row type="TypeDouble" index="24" invalid="no">2.7899999999999999e-03</row><row type="TypeDouble" index="25" invalid="no">2.9670000000000000e-03</row><row type="TypeDouble" index="26" invalid="no">3.1440000000000001e-03</row><row type="TypeDouble" index="27" invalid="no">3.3210000000000002e-03</row><row type="TypeDouble" index="28" invalid="no">3.4979999999999998e-03</row><row type="TypeDouble" index="29" invalid="no">3.6760000000000000e-03</row><row type="TypeDouble" index="30" invalid="no">3.8530000000000001e-03</row><row type="TypeDouble" index="31" invalid="no">4.0309999999999999e-03</row><row type="TypeDouble" index="32" invalid="no">4.2079999999999999e-03</row><row type="TypeDouble" index="33" invalid="no">4.3870000000000003e-03</row><row type="TypeDouble" index="34" invalid="no">4.5640000000000003e-03</row><row type="TypeDouble" index="35" invalid="no">4.7419999999999997e-03</row><row type="TypeDouble" index="36" invalid="no">4.9210000000000000e-03</row><row type="TypeDouble" index="37" invalid="no">5.0990000000000002e-03</row><row type="TypeDouble" index="38" invalid="no">5.2779999999999997e-03</row><row type="TypeDouble" index="39" invalid="no">5.4559999999999999e-03</row></column><column_width column="0">194</column_width><column_width column="1">172</column_width><column_width column="2">289</column_width></table>
+geometry	318	127	1023	587	
+
+</table>
+<multiLayer>
+Graph1	1	1	14/03/2021 16:53
+geometry	462	49	976	672	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	426	254
+Alignement	0	0
+<graph>
+ggeometry	8	9	939	588
+PlotTitle	Voltage vs Current Graph (Resistor)	#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Current (A)	Voltage (V)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	18	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	15	75	0	0	0
+AxisFont0	MS Shell Dlg 2	15	50	0	0	0
+AxisFont1	MS Shell Dlg 2	15	50	0	0	0
+AxisFont2	MS Shell Dlg 2	15	50	0	0	0
+AxisFont3	MS Shell Dlg 2	15	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table2_Current (A)	Table2_Voltage (V)	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	14	1	0	64		2	0	0	29	1
+FunctionCurve	0,LinearFit1,x,0.001,0.0315	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	14	1	16	64		2	0	176388744	31947664	1
+<formula>
+B=0.262868419654201
+A=951.131809010349
+
+A*x+B
+</formula>
+scale	0	0	35	0	8	5	0	0
+scale	1	0	35	0	8	5	0	0
+scale	2	0	0.035	0	8	5	0	0
+scale	3	0	0.035	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Graph2	1	1	14/03/2021 16:54
+geometry	913	232	1011	613	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	426	254
+Alignement	0	0
+<graph>
+ggeometry	12	8	972	529
+PlotTitle	Voltage vs Current Graph (Lamp)	#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Current (A)	Voltage (V)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	16	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	13	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	13	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	13	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	13	75	0	0	0
+AxisFont0	MS Shell Dlg 2	13	50	0	0	0
+AxisFont1	MS Shell Dlg 2	13	50	0	0	0
+AxisFont2	MS Shell Dlg 2	13	50	0	0	0
+AxisFont3	MS Shell Dlg 2	13	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table3_Current (A)	Table3_Voltage (V)	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	14	1	0	64		2	0	0	29	1
+FunctionCurve	0,LinearFit1,x,0.0107,0.0848	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	14	1	16	64		2	0	176386024	31858176	1
+<formula>
+B=-6.42807659889015
+A=409.080466368201
+
+A*x+B
+</formula>
+scale	0	-5	35	0	8	5	0	0
+scale	1	0	35	0	8	5	0	0
+scale	2	0	0.09	0	8	5	0	0
+scale	3	0	0.09	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Graph3	1	1	14/03/2021 16:56
+geometry	489	136	1009	686	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	422	254
+Alignement	0	0
+<graph>
+ggeometry	11	11	970	600
+PlotTitle	Voltage vs Current Graph (LED)	#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Current (A)	Voltage (V)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	19	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	15	75	0	0	0
+AxisFont0	MS Shell Dlg 2	15	50	0	0	0
+AxisFont1	MS Shell Dlg 2	15	50	0	0	0
+AxisFont2	MS Shell Dlg 2	15	50	0	0	0
+AxisFont3	MS Shell Dlg 2	15	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table4_Current LED (A)	Table4_Voltage LED (V)	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	14	1	0	64		2	0	0	39	1
+scale	0	0	2	0	8	5	0	0
+scale	1	0	2.5	0	8	5	0	0
+scale	2	-0.001	0.006	0	8	5	0	0
+scale	3	-0.001	0.006	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	-0.000838709677419355	2.42331288343558	MS Shell Dlg 2	15	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Table4_Voltage LED (V)	</legend>
+</graph>
+</multiLayer>
+<multiLayer>
+Graph4	1	1	14/03/2021 17:01
+geometry	375	97	1066	655	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	404	254
+Alignement	0	0
+<graph>
+ggeometry	10	9	1025	571
+PlotTitle	Current vs Voltage Graph (LED)	#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Voltage (V)	Current (A)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	18	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	14	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	14	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	14	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	14	75	0	0	0
+AxisFont0	MS Shell Dlg 2	14	50	0	0	0
+AxisFont1	MS Shell Dlg 2	14	50	0	0	0
+AxisFont2	MS Shell Dlg 2	14	50	0	0	0
+AxisFont3	MS Shell Dlg 2	14	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table4_Voltage LED (V)	Table4_Current LED (A)	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	14	1	0	64		2	0	0	39	1
+scale	0	-0.001	0.006	0	8	5	0	0
+scale	1	-0.001	0.006	0	8	5	0	0
+scale	2	0	2	0	8	5	0	0
+scale	3	0	2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<log>
+[14/03/2021 16:57	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table2_Voltage (V), using function: A*x+B
+Y standard errors: Unknown
+From x = 0.001 to x = 0.0315
+B (y-intercept) = 0.262868419654201 +/- 0.0416817021503617
+A (slope) = 951.131809010349 +/- 2.2623715798745
+--------------------------------------------------------------------------------------
+Chi^2 = 0.355988032148303
+R^2 = 0.999841607104717
+---------------------------------------------------------------------------------------
+[14/03/2021 17:00	Plot: ''Graph2'']
+Linear Regression fit of dataset: Table3_Voltage (V), using function: A*x+B
+Y standard errors: Unknown
+From x = 0.0107 to x = 0.0848
+B (y-intercept) = -6.42807659889015 +/- 0.618297896098027
+A (slope) = 409.080466368201 +/- 10.7428420778726
+--------------------------------------------------------------------------------------
+Chi^2 = 42.5767402987135
+R^2 = 0.981055955373209
+---------------------------------------------------------------------------------------
+</log>
